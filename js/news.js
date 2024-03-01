@@ -53,12 +53,6 @@ const displaySingleCategory = newslist => {
     newslist.sort((a, b) => {
         return b.total_view - a.total_view;
     });
-    //console.log(newslist);
-    // const home = document.getElementById('home');
-
-    // home.textContent = `
-
-    //      `;
     newslist.forEach(allNews => {
         const newsDiv = document.createElement('div');
 
